@@ -1,0 +1,34 @@
+[State]
+Type=Enum
+Items=Global Enabled;Opt-In;Disabled
+Label=State
+Default=Disabled
+Description=How this event plug-in should respond to events. If Global, all jobs and Workers will trigger the events for this plugin. If Opt-In, jobs and Workers can choose to trigger the events for this plugin. If Disabled, no events are triggered for this plugin.
+
+
+[WebServiceHost]
+Type=String
+Label=Web Service Host
+Default=lcoalhost
+Description=Deadline WebService Host
+
+
+[WebServicePort]
+Type=Integer
+Label=Web Service Port
+Default=8082
+Description=Deadline WebService Port
+
+
+[WorkTimeStart]
+Type=Integer
+Label=Work Time Start
+Default=9
+Description=Day Work Start Time
+
+
+[WorkTimeEnd]
+Type=Integer
+Label=Work Time End
+Default=19
+Description=Day Work End Time
